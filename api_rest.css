@@ -1,0 +1,493 @@
+#myGrid {
+  height: 100%;
+  width: 100%;
+}
+
+#tFuse {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn {
+  font-size: 1rem!important;
+}
+
+/* .top-nav {
+  padding: 8px 0px 10px 0px;
+  display: none!important;
+} */
+
+.top-nav2 {
+  margin-top: 2vh;
+}
+
+.top {
+  display: inline-flex;
+}
+
+.top-bar {
+  margin-left: 14px;
+}
+
+.choose_all button {
+  min-width: 100%;
+}
+
+.delete_all {
+  margin-left: 2.5vh;
+}
+
+.delete_all button {
+  min-width: 100%;
+}
+
+.choose_month {
+  margin-left: 3vh;
+}
+
+.choose_month button {
+  min-width: 100%;
+}
+
+.choose_year button {
+  min-width: 100%;
+}
+
+.choose_year {
+  margin-left: 2.5vh;
+}
+
+.choose_all {
+  margin-left: 3vh;
+}
+
+.choose_all {
+  padding: 5px 0px 10px 0px!important;
+  text-align: center;
+}
+
+.delete_all {
+  padding: 5px 0px 5px 0px!important;
+  text-align: center;
+}
+
+.choose_month {
+  padding: 5px 0px 10px 0px!important;
+  text-align: center;
+}
+
+.choose_year {
+  padding: 5px 0px 10px 0px!important;
+  text-align: center;
+}
+
+.list_button {
+  margin-top: 1vh;
+}
+
+#searchNav {
+  width: 100%
+}
+
+.type_event {
+  width: 100%;
+}
+
+.filtre {
+  width: 100%;
+}
+
+.flatpickr-calendar {
+  margin: auto;
+}
+
+.file-list {
+  /* min-height: 49%!important; */
+}
+
+#file {
+  border: 1px solid grey;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  min-width: 70%;
+  min-height: 35vh;
+  margin: auto;
+}
+
+.select-file {
+  margin-left: 7.45vh;
+  font-weight: bold;
+}
+
+div ul {
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
+div ul {
+  height:200px;
+}
+
+dt { float: left; clear: left; width: 6em; font-weight: bold; }
+dd { float: left; }
+
+.ag-theme-balham .ag-root {
+  border: none!important;
+}
+
+.my-grid {
+  border: 1px solid grey;
+  width: 100%;
+  height: 90%;
+}
+
+.my-label {
+  font-weight: bold;
+  min-height: 4vh!important;
+  margin-bottom: 1vh!important;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.my-value {
+  font-style: italic;
+  min-height: 4vh!important;
+  margin-bottom: 1vh!important;
+
+  display: flex;
+  justify-content: center;
+  align-content: left;
+  text-align: right;
+  flex-direction: column;
+  font-size: 15px;
+
+  overflow-wrap: break-word;
+}
+
+#infos {
+  min-height: 90vh;
+	min-width: 46%;
+	/* margin-left: -9vh; */
+}
+
+.custom-dropdown--large {
+    font-size: 1.5em;
+}
+
+.custom-dropdown--small {
+    font-size: .7em;
+}
+
+.custom-dropdown__select{
+    font-size: inherit;
+    padding: .6em;
+    margin: 0;
+}
+
+.custom-dropdown__select--white {
+    background-color: #fff;
+    color: #444;
+}
+
+@supports (pointer-events: none) and
+      ((-webkit-appearance: none) or
+      (-moz-appearance: none) or
+      (appearance: none)) {
+
+    .custom-dropdown {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .custom-dropdown__select {
+        padding-right: 2.5em;
+        border: 0;
+        border-radius: 5px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: 1px solid black;
+
+          }
+
+    .custom-dropdown::before,
+    .custom-dropdown::after {
+        content: "";
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .custom-dropdown::after {
+        content: "\25BC";
+        height: 1em;
+        font-size: .625em;
+        line-height: 1;
+        right: -2.8em;
+        top: 50%; margin-top: -.5em;
+    }
+
+    .custom-dropdown::before {
+        width: 2em;
+        right: 0; top: 0; bottom: 0;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .custom-dropdown__select[disabled] {
+        color: rgba(0,0,0,.3);
+    }
+
+    .custom-dropdown.custom-dropdown--disabled::after {
+        color: rgba(0,0,0,.1);
+    }
+
+    .custom-dropdown--white::before {
+        top: .5em; bottom: .5em;
+        background-color: #fff;
+        border-left: 1px solid rgba(0,0,0,.1);
+    }
+
+    .custom-dropdown--white::after {
+        color: rgba(0,0,0,.9);
+    }
+
+    .custom-select-opener {
+      background-color: white!important;
+      border: 2px solid grey!important;
+      min-width: 150%!important;
+      width: 83px!important;
+      /* margin-left: -1.5vh; */
+    }
+
+    @-moz-document url-prefix() {
+        .custom-dropdown__select              { padding-right: 1.9em }
+        .custom-dropdown--large .custom-dropdown__select { padding-right: 1.3em }
+        .custom-dropdown--small .custom-dropdown__select { padding-right: .5em }
+    }
+}
+
+.btn-export {
+	padding: 0px 5px 5px 1px;
+  padding-right: 0px!important;
+  text-align: right;
+  padding-right: 0px !important;
+}
+
+.list-button {
+  width: 100%!important;
+  margin: auto!important;
+  /* text-align: center; */
+
+  justify-content: space-between;
+
+  /* max-width: 100%!important;
+  min-width: 100%!important; */
+}
+
+#filter-text-box {
+  height: 88%!important;
+}
+
+/******* COLOR ELEM GRID  *******/
+
+.colorEventHire {
+  background-color: #AED581!important;
+}
+
+.colorEventRehire {
+  background-color: #4DD0E1!important;
+}
+
+.colorEventCancel {
+  background-color: #E57373!important;
+}
+
+.colorEventChange {
+  background-color: #E0E0E0!important;
+}
+
+/******* SELECT Panel & color *******/
+
+.custom-select-panel {
+  transition: none!important;
+}
+
+.custom-select-container.is-open .custom-select-panel {
+  max-height: 15.7em!important;
+  min-width: 12vh!important;
+}
+
+.ag-row-focus {
+  z-index: 0!important;
+}
+
+.is-open .custom-select-panel {
+  border: 1px solid black!important;
+}
+
+div.my-color:nth-child(4n+1) {
+  background-color: #F5F5F5;
+}
+
+div.my-color:nth-child(4n+2) {
+  background-color: #F5F5F5;
+}
+
+div.my-color:nth-child(4n+3) {
+  background-color: #E0E0E0;
+}
+
+div.my-color:nth-child(4n+4) {
+  background-color: #E0E0E0;
+}
+
+.my-color {
+  transition: all 0.3s ease 0s;
+}
+
+/******* LEGEND *******/
+
+.legende-all {
+  padding: 4px 1px 1px 1px !important;
+  background-color: #90A4AE;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.legende-h {
+  padding: 4px 1px 1px 1px!important;
+  background-color: #AED581;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.legende-r {
+  padding: 4px 1px 1px 1px!important;
+  background-color: #4DD0E1;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.legende-cancel {
+  padding: 4px 1px 1px 1px!important;
+  background-color: #E57373;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.legende-change {
+  padding: 4px 1px 1px 1px!important;
+  background-color: #E0E0E0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/******* MODAL *******/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #E57373!important;
+    width: 30%!important;
+    display: inherit!important;
+    margin-top: 20vh!important;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 1vh;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.txt-modal {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1vh;
+}
+
+/* ON CLICK (LABEL / VALUE ) ADD CLASS & REMOVE */
+.color-onclick {
+  background-color: #AED581!important;
+}
+
+.list-legend {
+  max-width: 100%!important;
+  min-width: 100%!important;
+  margin: auto!important;
+}
+
+.big-row {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.top-div {
+  min-height: 100vh!important;
+}
+
+.left-menu {
+  min-height: 90vh!important;
+  margin-top: 2vh;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.flatpickr-calendar.inline {
+  left: 5px!important;
+}
+
+.custom-select-opener > span:nth-child(1) {
+  margin-right: 2vh;
+}
+
+.salarie-changes {
+  background-color: #FFF176!important;
+}
+
+.list-select {
+  padding-left: 0px!important;
+}
